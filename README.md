@@ -1,22 +1,10 @@
+# My Learning Project
 
-мой учебный проект 
-мой код спрашивает имя и хотите ли вы ввести число
-при ответе да и вводе программа выдает ответ и снова спрашивает хотите ли ввести число и играть снова
+Run all code via Visual Studio.
 
-запускать код через Visual studio
+### Projects included:
 
-
-
-рандомайзер-генерирует числа от 1 до 100000
-
-
-
-
-
-
-
-
-
-
-
-калькулятор-умеет (+-*/) бесконечный - не закроется после 1 примера
+*   **ParityChecker** — checks if a number is even or odd.
+*   **Randomizer** — generates random numbers from 1 to 100,000.
+*   **Calculator** — supports basic operations (+, -, *, /). It runs in an infinite loop and does not close after a single calculation.
+*   **NumberGuessingGame** — a guess-the-number game. It stays open after a correct answer and automatically generates a new secret number from 1 to 101.
