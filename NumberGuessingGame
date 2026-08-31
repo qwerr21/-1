@@ -1,0 +1,22 @@
+using System;
+
+  Random random = new Random();
+int targetNumber = random.Next(1, 101);
+while (true) {
+    Console.WriteLine("угадай число от 1 до 101");
+    if (int.TryParse(Console.ReadLine(), out int userNumber))
+        if (userNumber < targetNumber)
+        {
+
+            Console.WriteLine("мое число больше");
+        }
+        else if (userNumber > targetNumber)
+        {
+            Console.WriteLine("Мое число меньше!");
+            
+        }
+        else
+        {
+            Console.WriteLine("Ура, ты угадал!");
+            targetNumber = random.Next(1, 101);
+        }      }
